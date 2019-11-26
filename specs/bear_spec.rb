@@ -27,4 +27,6 @@ class TestBear < Minitest::Test
     @bear.add_fish(@fish)
     assert_equal(1, @bear.count_fish)
   end
+
+  
 end
